@@ -15,5 +15,10 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://docs.python.org/3/library/index.html
+https://docs.python.org/3/library/exceptions.html#bltin-exceptions
+https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+https://peps.python.org/pep-0257/
+https://pandas.pydata.org/docs/user_guide/index.html#user-guide
+https://pandas.pydata.org/pandas-docs/stable/reference/frame.html
 
