@@ -10,7 +10,9 @@ Computes descriptive statistics of the data to uncover bike share usage patterns
 The user experience is interactive that allows a user to give input on which data they would like to see.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
