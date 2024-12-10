@@ -106,7 +106,7 @@ def time_stats(df):
     popular_hour = df['hour'].mode()[0]
     print('Most Common Start Hour:', popular_hour)
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % round((time.time() - start_time)))
     print('-'*40)
 
 
@@ -128,7 +128,7 @@ def station_stats(df):
     popular_cstation = df[['Start Station', 'End Station']].mode().iloc[0]
     print(f'Frequent combination of start station and end station are {popular_cstation[0]} and {popular_cstation[1]} respectively')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % round((time.time() - start_time)))
     print('-'*40)
 
 
@@ -147,7 +147,7 @@ def trip_duration_stats(df):
     avg_travel = df['Trip Duration'].mean()
     print(f'Mean Travel time of the Trips is {avg_travel} sec')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % round((time.time() - start_time)))
     print('-'*40)
 
 
@@ -183,7 +183,7 @@ def user_stats(df):
     except KeyError:
         print('\nNo Birth Year data to display')
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took %s seconds." % round((time.time() - start_time)))
     print('-'*40)
 
 def raw_dat(df):
