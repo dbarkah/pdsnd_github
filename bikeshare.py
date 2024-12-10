@@ -175,9 +175,9 @@ def user_stats(df):
         Birth_max = df['Birth Year'].max()
         Birth_min = df['Birth Year'].min()
         Birth_com = df['Birth Year'].mode()[0]
-        print(f'\nThe Youngest Birth Year is:{Birth_max}')
-        print(f'The Oldest Birth Year is:{Birth_min}')
-        print(f'The Common Birth Year is:{Birth_com}')
+        print(f'\nThe Youngest Birth Year is:{round(Birth_max)}')
+        print(f'The Oldest Birth Year is:{round(Birth_min)}')
+        print(f'The Common Birth Year is:{round(Birth_com)}')
           
     # KeyError handling
     except KeyError:
